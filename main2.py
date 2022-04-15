@@ -79,7 +79,7 @@ class TicTacToe:
                 print("it is a tie!")
                 exit()
     def check_valid_move(self,move):
-        print("invalid move")
+        
         return self.board[int(move[0])][int(move[1])] == " "
 
     def check_if_won(self):
